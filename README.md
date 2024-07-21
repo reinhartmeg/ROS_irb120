@@ -2,7 +2,7 @@
 
 The repo here is branching off Diego Martín’s repo irb120_robotiq85 for the initial setup for an ABB IRB120 6-axis industrial robot in Gazebo. The code uploaded here has been modified to remove all references to the Robotiq 85 2-finger gripper. The simulation won’t work if copied directly from the referenced repo. However, it’s recommended to follow a similar setup that’s outlined there that’s only slightly modified from the example.
 
-The forward_kinematics_mirror.py was added to copy the movements of the robot in the lab.
+The forward_kinematics_mirror.py was added to copy the movements of the robot in the lab. It's included inside irb120_robotiq85_gazebo to run as directed and attatched to main for easier access.
 
 
 ## Dependencies and Installation ##
