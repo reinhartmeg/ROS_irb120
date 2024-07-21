@@ -82,14 +82,5 @@ if __name__ == '__main__':
         rospy.sleep(4) # to end 
 
 
-
-        # rospy.loginfo("Moving arm to pose_1")	
-        # move_joint_arm(-pi/2,0.5,0.2,-1,0.2,0.2)
-        # rospy.sleep(1)
-        # rospy.loginfo("Moving arm to pose_2")
-        # move_joint_arm(0,0,-0.2,0,1,0.3)
-        # rospy.sleep(1)
-
-
     rospy.loginfo("All movements finished. Shutting down")	
     moveit_commander.roscpp_shutdown()
